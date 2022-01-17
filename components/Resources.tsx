@@ -50,11 +50,13 @@ const Resources = () => {
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {resources.map((resource) => (
-              <a href={resource.link} target="_blank">
-                <div
-                  key={resource.name}
-                  className="pt-6 hover:scale-110 transition-transform"
-                >
+              <a
+                href={resource.link}
+                target="_blank"
+                rel="noreferrer"
+                key={resource.name}
+              >
+                <div className="pt-6 hover:scale-110 transition-transform">
                   <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
                     <div className="-mt-6">
                       <div>
