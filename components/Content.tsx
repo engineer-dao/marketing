@@ -116,7 +116,7 @@ const Content = () => {
               EngineerDAO
             </span>
           </h1>
-          <p className="mt-8 text-xl text-gray-500 leading-8">
+          <p className="mt-8 text-xl text-gray-500 leading-8 text-center">
             EngineerDAO is a product-focused DAO obsessed with manifesting the
             "Internet of Jobs". Our product is an anonymous, permissionless
             marketplace for software engineers to match with paid projects,
@@ -145,11 +145,27 @@ const Content = () => {
             This is how we align incentives and level the playing field.
           </p>
           <p>
+            Our system solves for the "parallel work" problem. Engineers are
+            often hestiant to start a job if the contract is "open" - ie. anyone
+            can start and submit work. With the buy-in system, the contract is
+            singularily awarded to the engineer who pays the buy-in. No
+            approvals required, no risk of wasted effort.
+          </p>
+          <p>
             In a successful scenario, the bounty + buy-in are transferred to the
             engineer upon contract completion. Completion is initiated either by
             the supplier or expiration of the contract timeframe without
             supplier objection.
           </p>
+          <p className="text-center">
+            <strong>
+              No profiles. No reputation. No gatekeeping. No permission
+              necessary.
+            </strong>
+          </p>
+          <h3 className="text-center mb-10 mt-6">
+            If you think you can do the job, buy-in and get paid.
+          </h3>
           <img
             src="/contract.png"
             alt="EngineerDAO Contract"
